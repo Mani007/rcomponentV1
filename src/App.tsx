@@ -14,6 +14,12 @@ import Password from './components/inputs/Password';
 import Radio from './components/inputs/Radio';
 import Range from './components/inputs/Range';
 import Reset from './components/inputs/Reset';
+import Search from './components/inputs/Search';
+import Submit from './components/inputs/Submit';
+import Text from './components/inputs/Text';
+import Time from './components/inputs/Time';
+import Urls from './components/inputs/Urls';
+import Week from './components/inputs/Week';
 
 function App() {
   return (
@@ -30,7 +36,13 @@ function App() {
       {/* <Password/> */}
       {/* <Radio/> */}
       {/* <Range/> */}
-      <Reset/>
+      {/* <Reset/> */}
+      {/* <Search/> */}
+      {/* <Submit/> */}
+      {/* <Text/> */}
+      {/* <Time/> */}
+      {/* <Urls/> */}
+      <Week/>
     </div>
   );
 }
